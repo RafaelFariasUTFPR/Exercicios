@@ -31,6 +31,101 @@
         
                 ]
             },
+            {
+                "nome": "Exercício 2",
+                "Enunciado":
+                [
+                    {
+                        "path": "Enunciado_1.md",
+                        "isCode": false
+                    },
+                    {
+                        "path": "Enunciado_2.md",
+                        "isCode": true
+                    }
+        
+                ],
+                "Resposta":
+                [
+                    {
+                        "path": "Resposta_1.md",
+                        "isCode": false
+                    },
+                    {
+                        "path": "Resposta_2.md",
+                        "isCode": true
+                    }
+        
+                ]
+            },
+            {
+                "nome": "Comparações",
+                "Enunciado":
+                [
+                    {
+                        "path": "Enunciado_1.md",
+                        "isCode": false
+                    },
+                    {
+                        "path": "Enunciado_2.md",
+                        "isCode": true
+                    }
+        
+                ],
+                "Resposta":
+                [
+                    {
+                        "path": "Resposta_1.md",
+                        "isCode": false
+                    },
+                    {
+                        "path": "Resposta_2.md",
+                        "isCode": true
+                    }
+        
+                ]
+            }
+
+
+
+
+
+        ]
+
+
+    },
+    {
+        "nome": "Volume 2",
+        "relativePath": "./markdown/Volume1/",
+        "exercicios":
+        [
+            {
+                "nome": "Exercício 1",
+                "Enunciado":
+                [
+                    {
+                        "path": "Enunciado_1.md",
+                        "isCode": false
+                    },
+                    {
+                        "path": "Enunciado_2.md",
+                        "isCode": true
+                    }
+        
+                ],
+                "Resposta":
+                [
+                    {
+                        "path": "Resposta_1.md",
+                        "isCode": false
+                    },
+                    {
+                        "path": "Resposta_2.md",
+                        "isCode": true
+                    }
+        
+                ]
+            },
 
 
 
