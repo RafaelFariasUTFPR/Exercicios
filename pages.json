@@ -5,42 +5,15 @@
         "exercicios":
         [
             {
-                "nome": "Exercício 0",
-                "Enunciado":
-                [
-                    {
-                        "path": "Enunciado_1.md",
-                        "isCode": false
-                    },
-                    {
-                        "path": "Enunciado_2.md",
-                        "isCode": true
-                    }
-        
-                ],
-                "Resposta":
-                [
-                    {
-                        "path": "Resposta_1.md",
-                        "isCode": false
-                    },
-                    {
-                        "path": "Resposta_2.md",
-                        "isCode": true
-                    }
-        
-                ]
-            },
-            {
                 "nome": "Exercício 1",
                 "Enunciado":
                 [
                     {
-                        "path": "Enunciado_1.md",
+                        "path": "Exercicio_1/Enunciado_1.md",
                         "isCode": false
                     },
                     {
-                        "path": "Enunciado_2.md",
+                        "path": "Exercicio_1/Enunciado_2.md",
                         "isCode": true
                     }
         
@@ -48,26 +21,26 @@
                 "Resposta":
                 [
                     {
-                        "path": "Resposta_1.md",
+                        "path": "Exercicio_1/Resposta_1.md",
                         "isCode": false
                     },
                     {
-                        "path": "Resposta_2.md",
+                        "path": "Exercicio_1/Resposta_2.md",
                         "isCode": true
                     }
         
                 ]
             },
             {
-                "nome": "Comparações",
+                "nome": "Exercício 2",
                 "Enunciado":
                 [
                     {
-                        "path": "Enunciado_1.md",
+                        "path": "Exercicio_2/Enunciado_1.md",
                         "isCode": false
                     },
                     {
-                        "path": "Enunciado_2.md",
+                        "path": "Exercicio_2/Enunciado_2.md",
                         "isCode": true
                     }
         
@@ -75,11 +48,11 @@
                 "Resposta":
                 [
                     {
-                        "path": "Resposta_1.md",
+                        "path": "Exercicio_2/Resposta_1.md",
                         "isCode": false
                     },
                     {
-                        "path": "Resposta_2.md",
+                        "path": "Exercicio_2/Resposta_2.md",
                         "isCode": true
                     }
         

@@ -6,7 +6,7 @@ import { setContent } from './js/setContent.js';
 
 generateButtons()
 let markdownString;
-setContent(0,1)
+setContent(0, 0)
 
 
 

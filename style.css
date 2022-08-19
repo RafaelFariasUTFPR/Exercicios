@@ -63,6 +63,8 @@ body{
   width: 30%;
   position: fixed;
   left: 0px;
+
+
   
 }
 .banner{
@@ -167,6 +169,9 @@ body{
   padding-right: 40px;
   display:inline;
   
+}
+.markdown-text{
+
 }
 
 
@@ -280,8 +285,8 @@ body{
     height: 50vh;
     transform: translateY(-50.5vh);
 
-    transition: 500ms;
-    transition-timing-function:ease-in-out;
+    transition: 300ms;
+    transition-timing-function:ease;
   }
 
   
