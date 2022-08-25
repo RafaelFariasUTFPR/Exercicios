@@ -39,7 +39,6 @@ export async function setContent(volumeN, exercicioN){
 
             break;
         }
-
     })
 
     // Carregando as Respostas

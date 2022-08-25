@@ -1,5 +1,38 @@
 [
     {
+        "nome": "Algoritmos com fluxogramas",
+        "relativePath": "./markdown/Volume0/",
+        "exercicios":
+        [
+            {
+                "nome": "O número é par ou ímpar?",
+                "Enunciado":
+                [
+                    {
+                        "path": "Exercicio_1/Enunciado_1.md",
+                        "isCode": false
+                    }
+        
+                ],
+                "Resposta":
+                [
+                    {
+                        "path": "Exercicio_1/Resposta_1.md",
+                        "isCode": false
+                    }
+        
+                ]
+            }
+
+
+
+
+
+        ]
+
+
+    },
+    {
         "nome": "Seleção Condicional",
         "relativePath": "./markdown/Volume1/",
         "exercicios":
