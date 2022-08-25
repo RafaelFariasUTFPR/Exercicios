@@ -172,7 +172,9 @@ body{
 .markdown-text{
 
 }
-
+.markdown-text a{
+  color:#58A6FF;
+}
 .answer{
   
 }

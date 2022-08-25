@@ -40,7 +40,7 @@ export async function setContent(volumeN, exercicioN){
             break;
         }
 
-    });
+    })
 
     // Carregando as Respostas
     await jsonFile[volumeN].exercicios[exercicioN].Resposta.forEach(element => {
@@ -85,9 +85,5 @@ export async function setContent(volumeN, exercicioN){
         }
 
     });
-
-    let tempAnswer = document.createElement('div');
-    tempAnswer.id = "answer-container";
-    tempAnswer.innerHTML = "ASDASD"
    
 }

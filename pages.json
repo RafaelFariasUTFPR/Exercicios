@@ -68,72 +68,25 @@
 
     },
     {
-        "nome": "Volume 2",
-        "relativePath": "./markdown/Volume1/",
+        "nome": "Sobre",
+        "relativePath": "./markdown/VolumeZ/",
         "exercicios":
         [
             {
-                "nome": "Exercício 1",
+                "nome": "Sobre este website",
                 "Enunciado":
                 [
                     {
-                        "path": "Enunciado_1.md",
+                        "path": "WebAppInfo/Enunciado_1.md",
                         "isCode": false
-                    },
-                    {
-                        "path": "Enunciado_2.md",
-                        "isCode": true
-                    }
-        
+                    }        
                 ],
                 "Resposta":
                 [
-                    {
-                        "path": "Resposta_1.md",
-                        "isCode": false
-                    },
-                    {
-                        "path": "Resposta_2.md",
-                        "isCode": true
-                    }
-        
-                ]
-            },
-
-
-
-
-            {
-                "nome": "Exercício 2",
-                "Enunciado":
-                [
-                    {
-                        "path": "Enunciado_1.md",
-                        "isCode": false
-                    },
-                    {
-                        "path": "Enunciado_2.md",
-                        "isCode": true
-                    }
-        
-                ],
-                "Resposta":
-                [
-                    {
-                        "path": "Resposta_1.md",
-                        "isCode": false
-                    },
-                    {
-                        "path": "Resposta_2.md",
-                        "isCode": true
-                    }
+ 
         
                 ]
             }
-
-
-
-
 
         ]
 
