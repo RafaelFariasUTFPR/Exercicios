@@ -53,6 +53,7 @@ body{
 }
 .app{
   display: flex;
+  
 }
 
 
@@ -75,7 +76,7 @@ body{
   position: absolute;
   box-shadow: 2px 0px 6px rgba(0, 0, 0, 0.75);
   z-index: 1;
-
+  
 
 }
 
@@ -162,11 +163,9 @@ body{
 
 }
 #markdown-container{
-  padding-left: 40px;
-  padding-top: 40px;
   width: 100%;
   height: fit-content;
-  padding-right: 40px;
+  padding: 40px;
   display:inline;
   
 }
@@ -174,6 +173,9 @@ body{
 
 }
 
+.answer{
+  
+}
 
 
 .emotional-support{
@@ -186,6 +188,26 @@ body{
 
 }
 
+#toggle-answer{
+  position:absolute;
+  bottom: 5px;
+  margin-left: 40px;
+  height: 30px;
+  z-index: 1;
+  background-color: #88D9E6;
+  transition: 150ms;
+  border-radius: 6px;
+  border-width: 3px;
+  font-weight: bold;
+}
+
+#toggle-answer:hover{
+  border-radius: 10px;
+}
+#toggle-answer:active{
+  box-shadow: inset 0px 2px 8px rgb(0, 0, 0, .75);
+
+}
 
 
 
@@ -326,9 +348,13 @@ body{
 
 
     padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 
 
   }
+
+
 
   .emotional-support{
     position: fixed;
@@ -340,6 +366,16 @@ body{
 
     height: 10vh;
 
+  
+  }
+  #toggle-answer{
+    position:absolute;
+    bottom: 5px;
+    height: 30px;
+    z-index: 1;
+
+
+    margin-left: 20px;
   
   }
   
