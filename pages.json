@@ -11,10 +11,6 @@
                     {
                         "path": "Exercicio_1/Enunciado_1.md",
                         "isCode": false
-                    },
-                    {
-                        "path": "Exercicio_1/Enunciado_2.md",
-                        "isCode": true
                     }
         
                 ],
@@ -27,6 +23,10 @@
                     {
                         "path": "Exercicio_1/Resposta_2.md",
                         "isCode": true
+                    },
+                    {
+                        "path": "Exercicio_1/Resposta_3.md",
+                        "isCode": false
                     }
         
                 ]
@@ -38,23 +38,12 @@
                     {
                         "path": "Exercicio_2/Enunciado_1.md",
                         "isCode": false
-                    },
-                    {
-                        "path": "Exercicio_2/Enunciado_2.md",
-                        "isCode": true
                     }
         
                 ],
                 "Resposta":
                 [
-                    {
-                        "path": "Exercicio_2/Resposta_1.md",
-                        "isCode": false
-                    },
-                    {
-                        "path": "Exercicio_2/Resposta_2.md",
-                        "isCode": true
-                    }
+
         
                 ]
             }

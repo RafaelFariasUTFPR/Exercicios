@@ -43,7 +43,7 @@ export async function setContent(volumeN, exercicioN){
     })
 
     // Carregando as Respostas
-    await jsonFile[volumeN].exercicios[exercicioN].Resposta.forEach(element => {
+    jsonFile[volumeN].exercicios[exercicioN].Resposta.forEach(element => {
         switch(element.isCode){
             case false:
                 fetch(jsonFile[volumeN].relativePath + element.path)
@@ -87,3 +87,4 @@ export async function setContent(volumeN, exercicioN){
     });
    
 }
+

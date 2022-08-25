@@ -1,3 +1,9 @@
-let i = 5;
-let x = 1;
-console.log(x + i);
+let a = 10;
+let b = 0;
+ 
+if(a > b && b != 0)
+    console.log(a / b);
+else if(a < b)
+    console.log(a * b);
+else
+    console.log(a - b);
