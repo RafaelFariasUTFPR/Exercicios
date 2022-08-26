@@ -9,5 +9,5 @@ ___
 ![Diagrama de fluxo](./markdown/Volume0/Exercicio_3/TesteDeMesa.png)
 
 
-> Use [esta ferramenta](https://app.diagrams.net/) para montar seus diagramas!
+> Use o **Portugol** para criar o fluxograma.
 ___

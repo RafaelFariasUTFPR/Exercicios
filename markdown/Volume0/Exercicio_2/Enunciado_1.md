@@ -3,5 +3,5 @@ Demonstre através de um **fluxograma** como podemos transformar a variável ```
 	
     angulo_em_radiano = angulo_em_graus * (π/180) 
 
-> Use [esta ferramenta](https://app.diagrams.net/) para montar seus diagramas!
+> Use o **Portugol** para criar o fluxograma.
 ___
