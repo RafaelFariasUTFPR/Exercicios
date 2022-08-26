@@ -41,6 +41,15 @@ export async function setContent(volumeN, exercicioN){
         }
     })
 
+    
+    let numeroDeRespostas = jsonFile[volumeN].exercicios[exercicioN].Resposta.length
+    
+    document.getElementById("toggle-answer").style.display = "none";
+
+    if(numeroDeRespostas  > 0)
+        document.getElementById("toggle-answer").style.display = "block";
+    
+    
     // Carregando as Respostas
     jsonFile[volumeN].exercicios[exercicioN].Resposta.forEach(element => {
         switch(element.isCode){

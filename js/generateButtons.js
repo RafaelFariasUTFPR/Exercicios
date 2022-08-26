@@ -14,7 +14,6 @@ import { setContent } from './setContent.js';
 
 export class exercicioButton{
     constructor(){
-
         const projectName = document.getElementById("options-menu");
         for(let i = 0; i < jsonFile.length; i++)
         {
@@ -54,7 +53,7 @@ export class exercicioButton{
         }
     }
 
-    loop(){
+    async loop(){
         this.buttonArr.forEach(element => {
             element.htmlButton.onclick = () =>{
                 setContent(element.volume, element.exercicio)         

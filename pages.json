@@ -6,6 +6,7 @@
         [
             {
                 "nome": "O número é par ou ímpar?",
+                "coletaResposta": false,
                 "Enunciado":
                 [
                     {
@@ -23,14 +24,7 @@
         
                 ]
             }
-
-
-
-
-
         ]
-
-
     },
     {
         "nome": "Seleção Condicional",
@@ -39,6 +33,7 @@
         [
             {
                 "nome": "Exercício 1",
+                "coletaResposta": false,
                 "Enunciado":
                 [
                     {
@@ -66,6 +61,7 @@
             },
             {
                 "nome": "Exercício 2",
+                "coletaResposta": false,
                 "Enunciado":
                 [
                     {
@@ -81,10 +77,6 @@
                 ]
             }
 
-
-
-
-
         ]
 
 
@@ -96,6 +88,7 @@
         [
             {
                 "nome": "Sobre este website",
+                "coletaResposta": false,
                 "Enunciado":
                 [
                     {
