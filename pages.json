@@ -1,9 +1,26 @@
 [
     {
-        "nome": "Algoritmos com fluxogramas",
+        "nome": "Fluxogramas e tipo de dados",
         "relativePath": "./markdown/Volume0/",
         "exercicios":
         [
+            {
+                "nome": "Fluxograma problema dos galões",
+                "coletaResposta": false,
+                "Enunciado":
+                [
+                    {
+                        "path": "Exercicio_3/Enunciado_1.md",
+                        "isCode": false
+                    }
+        
+                ],
+                "Resposta":
+                [
+
+        
+                ]
+            },
             {
                 "nome": "O número é par ou ímpar?",
                 "coletaResposta": false,
@@ -21,6 +38,23 @@
                         "path": "Exercicio_1/Resposta_1.md",
                         "isCode": false
                     }
+        
+                ]
+            },
+            {
+                "nome": "Graus para radianos",
+                "coletaResposta": false,
+                "Enunciado":
+                [
+                    {
+                        "path": "Exercicio_2/Enunciado_1.md",
+                        "isCode": false
+                    }
+        
+                ],
+                "Resposta":
+                [
+
         
                 ]
             }
