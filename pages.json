@@ -1,6 +1,6 @@
 [
     {
-        "nome": "Fluxogramas e tipo de dados",
+        "nome": "Fluxogramas",
         "relativePath": "./markdown/Volume0/",
         "exercicios":
         [
@@ -17,7 +17,48 @@
                 ],
                 "Resposta":
                 [
-
+                    {
+                        "path": "Exercicio_3/Resposta_1.md",
+                        "isCode": false
+                    }
+                ]
+            },
+            {
+                "nome": "Radianos para graus",
+                "coletaResposta": false,
+                "Enunciado":
+                [
+                    {
+                        "path": "Exercicio_2/Enunciado_1.md",
+                        "isCode": false
+                    }
+        
+                ],
+                "Resposta":
+                [
+                    {
+                        "path": "Exercicio_2/Resposta_1.md",
+                        "isCode": false
+                    }
+                ]
+            },
+            {
+                "nome": "Dias para Anos, Semanas e dias",
+                "coletaResposta": false,
+                "Enunciado":
+                [
+                    {
+                        "path": "Exercicio_4/Enunciado_1.md",
+                        "isCode": false
+                    }
+        
+                ],
+                "Resposta":
+                [
+                    {
+                        "path": "Exercicio_4/Resposta_1.md",
+                        "isCode": false
+                    }
         
                 ]
             },
@@ -42,19 +83,42 @@
                 ]
             },
             {
-                "nome": "Graus para radianos",
+                "nome": "Checando se o triângulo é válido",
                 "coletaResposta": false,
                 "Enunciado":
                 [
                     {
-                        "path": "Exercicio_2/Enunciado_1.md",
+                        "path": "Exercicio_5/Enunciado_1.md",
                         "isCode": false
                     }
         
                 ],
                 "Resposta":
                 [
-
+                    {
+                        "path": "Exercicio_5/Resposta_1.md",
+                        "isCode": false
+                    }
+        
+                ]
+            },
+            {
+                "nome": "Triângulo equilátero, escaleno e isósceles",
+                "coletaResposta": false,
+                "Enunciado":
+                [
+                    {
+                        "path": "Exercicio_6/Enunciado_1.md",
+                        "isCode": false
+                    }
+        
+                ],
+                "Resposta":
+                [
+                    {
+                        "path": "Exercicio_6/Resposta_1.md",
+                        "isCode": false
+                    }
         
                 ]
             }

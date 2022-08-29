@@ -49,7 +49,7 @@ export async function setContent(volumeN, exercicioN){
     if(numeroDeRespostas  > 0)
         document.getElementById("toggle-answer").style.display = "block";
     
-    
+
     // Carregando as Respostas
     jsonFile[volumeN].exercicios[exercicioN].Resposta.forEach(element => {
         switch(element.isCode){
