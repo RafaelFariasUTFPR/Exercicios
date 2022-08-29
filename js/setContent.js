@@ -4,9 +4,12 @@ import jsonFile from '../pages.json' assert {type: 'json'};
 // Async para usar o "wait" impedindo de renderizar o conteudo na ordem errada
 export async function setContent(volumeN, exercicioN){
     const markdownContainer = document.getElementById("markdown-container");
-    markdownContainer.innerHTML = null;
+    //markdownContainer.innerHTML = null;
 
-
+    const divEnunciado = document.getElementById("div-enunciado");
+    const divResposta = document.getElementById("div-resposta");
+    divEnunciado.innerHTML = null;
+    divResposta.innerHTML = null;
     // Carregando o enunciado
     await jsonFile[volumeN].exercicios[exercicioN].Enunciado.forEach(element => {
         switch(element.isCode){
@@ -17,7 +20,7 @@ export async function setContent(volumeN, exercicioN){
                         let tempTextElement= document.createElement('div');
                         tempTextElement.className = "markdown-text"
                         tempTextElement.innerHTML = marked.parse(response);
-                        markdownContainer.appendChild(tempTextElement);
+                        divEnunciado.appendChild(tempTextElement);
                     })
                     .catch(err => console.log(err))
             
@@ -33,7 +36,7 @@ export async function setContent(volumeN, exercicioN){
                         tempCode.className = "language-css";
                         let tempInnerHTML = Prism.highlight(response, Prism.languages.javascript, 'javascript');
                         tempCode.innerHTML = tempInnerHTML;
-                        markdownContainer.appendChild(tempPre);
+                        divEnunciado.appendChild(tempPre);
                     })
                     .catch(err => console.log(err))
 
@@ -65,7 +68,7 @@ export async function setContent(volumeN, exercicioN){
 
 
                         tempTextElement.innerHTML = marked.parse(response);
-                        markdownContainer.appendChild(tempTextElement);
+                        divResposta.appendChild(tempTextElement);
                     })
                     .catch(err => console.log(err))
             
@@ -86,7 +89,7 @@ export async function setContent(volumeN, exercicioN){
                         tempCode.className = "language-css";
                         let tempInnerHTML = Prism.highlight(response, Prism.languages.javascript, 'javascript');
                         tempCode.innerHTML = tempInnerHTML;
-                        markdownContainer.appendChild(tempPre);
+                        divResposta.appendChild(tempPre);
                     })
                     .catch(err => console.log(err))
             break;
