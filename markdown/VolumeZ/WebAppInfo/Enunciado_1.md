@@ -12,7 +12,7 @@ ___
 
 ___
 ## Onde posso encontrar o código?
-O repositório desta web aplicação pode ser encontrada [aqui](https://github.com/RafaelFariasUTFPR/Exercicios), Assim como uma visualização prévia na **resposta**
+O repositório desta web aplicação pode ser encontrada [aqui](https://github.com/RafaelFariasUTFPR/Exercicios).
 
 ___
 ## Funcionamento

@@ -121,6 +121,26 @@
                     }
         
                 ]
+            },
+            {
+                "nome": "Calculando a conta de energia",
+                "coletaResposta": false,
+                "Enunciado":
+                [
+                    {
+                        "path": "Exercicio_7/Enunciado_1.md",
+                        "isCode": false
+                    }
+        
+                ],
+                "Resposta":
+                [
+                    {
+                        "path": "Exercicio_7/Resposta_1.md",
+                        "isCode": false
+                    }
+        
+                ]
             }
         ]
     },

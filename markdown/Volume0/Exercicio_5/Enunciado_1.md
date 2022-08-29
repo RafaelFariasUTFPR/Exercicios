@@ -1,4 +1,4 @@
-#Checando se o triângulo é válido
+# Checando se o triângulo é válido
 
 Crie uma aplicação que recebe como *input* **três ângulos** internos de um triângulo. Esse programa deve então checar se esses ângulos formam um **triângulo válido**.
  ___
