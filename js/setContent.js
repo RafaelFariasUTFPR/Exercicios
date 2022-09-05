@@ -1,6 +1,62 @@
 import jsonFile from '../pages.json' assert {type: 'json'};
 
 
+function loadContent(response, parentDiv){
+    const divResposta = document.getElementById("div-resposta");
+    
+    // setando a string que sera manipulada + adicionando o ² ao final para mostrar onde a página termina
+    let responseString = response + '²';
+    while(true){
+        //Pegando o código entre ¹ e ¹
+        let code = responseString.match(/ *\¹[^]*?\¹ */g)
+        
+        if(code != null){
+            code = code[0]
+        }
+        
+        responseString = responseString.replace(/ *\¹[^]*?\¹ */, "²")
+
+        let text = responseString.substring(0, responseString.indexOf('²'));
+        responseString = responseString.replace("²", "")
+
+        let tempTextElement= document.createElement('div');
+        tempTextElement.className = "markdown-text"
+
+        if(parentDiv == divResposta){
+            tempTextElement.className = "markdown-text answer"
+            tempTextElement.style.display= "none"
+        }
+
+        tempTextElement.innerHTML = marked.parse(text);
+        parentDiv.appendChild(tempTextElement);
+
+        responseString = responseString.replace(text, "")
+        //Removendo o ¹
+
+        code = code.replace(/\¹|-/g, '')
+        
+        
+        let tempCode = document.createElement('code');
+        let tempPre = document.createElement('pre');
+
+        
+
+        tempPre.className = "language-css";
+        tempPre.appendChild(tempCode);
+        tempCode.className = "language-css";
+        let tempInnerHTML = Prism.highlight(code, Prism.languages.javascript, 'javascript');
+        tempCode.innerHTML = tempInnerHTML;
+        parentDiv.appendChild(tempPre);
+
+
+
+        if(text == null)
+            break;
+
+    }
+}
+
+
 // Async para usar o "wait" impedindo de renderizar o conteudo na ordem errada
 export async function setContent(volumeN, exercicioN){
     const markdownContainer = document.getElementById("markdown-container");
@@ -12,36 +68,13 @@ export async function setContent(volumeN, exercicioN){
     divResposta.innerHTML = null;
     // Carregando o enunciado
     await jsonFile[volumeN].exercicios[exercicioN].Enunciado.forEach(element => {
-        switch(element.isCode){
-            case false:
-                fetch(jsonFile[volumeN].relativePath + element.path)
-                    .then(response => response.text())
-                    .then((response) => {
-                        let tempTextElement= document.createElement('div');
-                        tempTextElement.className = "markdown-text"
-                        tempTextElement.innerHTML = marked.parse(response);
-                        divEnunciado.appendChild(tempTextElement);
-                    })
-                    .catch(err => console.log(err))
-            
-            break;
-            case true:
-                fetch(jsonFile[volumeN].relativePath + element.path)
-                    .then(response => response.text())
-                    .then((response) => {
-                        let tempCode = document.createElement('code');
-                        let tempPre = document.createElement('pre');
-                        tempPre.className = "language-css";
-                        tempPre.appendChild(tempCode);
-                        tempCode.className = "language-css";
-                        let tempInnerHTML = Prism.highlight(response, Prism.languages.javascript, 'javascript');
-                        tempCode.innerHTML = tempInnerHTML;
-                        divEnunciado.appendChild(tempPre);
-                    })
-                    .catch(err => console.log(err))
-
-            break;
-        }
+        fetch(jsonFile[volumeN].relativePath + element.path)
+            .then(response => response.text())
+            .then((response) => {
+                loadContent(response,divEnunciado)
+                
+            })
+            .catch(err => console.log(err))
     })
 
     
@@ -55,45 +88,14 @@ export async function setContent(volumeN, exercicioN){
 
     // Carregando as Respostas
     jsonFile[volumeN].exercicios[exercicioN].Resposta.forEach(element => {
-        switch(element.isCode){
-            case false:
-                fetch(jsonFile[volumeN].relativePath + element.path)
-                    .then(response => response.text())
-                    .then((response) => {
-                        let tempTextElement= document.createElement('div');
-                        tempTextElement.className = "markdown-text answer"
-
-                        // Inicia invisivel
-                        tempTextElement.style.display= "none"
-
-
-                        tempTextElement.innerHTML = marked.parse(response);
-                        divResposta.appendChild(tempTextElement);
-                    })
-                    .catch(err => console.log(err))
+            fetch(jsonFile[volumeN].relativePath + element.path)
+                .then(response => response.text())
+                .then((response) => {
+                    loadContent(response, divResposta)
+                })
+                .catch(err => console.log(err))
             
-            break;
-            case true:
-                fetch(jsonFile[volumeN].relativePath + element.path)
-                    .then(response => response.text())
-                    .then((response) => {
-                        let tempCode = document.createElement('code');
-                        let tempPre = document.createElement('pre');
-                        tempPre.className = "language-css answer";
-                        
-                        // Inicia invisivel
-                        tempPre.style.display= "none"
 
-
-                        tempPre.appendChild(tempCode);
-                        tempCode.className = "language-css";
-                        let tempInnerHTML = Prism.highlight(response, Prism.languages.javascript, 'javascript');
-                        tempCode.innerHTML = tempInnerHTML;
-                        divResposta.appendChild(tempPre);
-                    })
-                    .catch(err => console.log(err))
-            break;
-        }
 
     });
    

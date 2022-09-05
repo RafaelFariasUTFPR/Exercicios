@@ -165,14 +165,6 @@
                     {
                         "path": "Exercicio_1/Resposta_1.md",
                         "isCode": false
-                    },
-                    {
-                        "path": "Exercicio_1/Resposta_2.md",
-                        "isCode": true
-                    },
-                    {
-                        "path": "Exercicio_1/Resposta_3.md",
-                        "isCode": false
                     }
         
                 ]
@@ -198,6 +190,45 @@
         ]
 
 
+    },
+    {
+        "nome": "Vetores e matrizes",
+        "relativePath": "./markdown/Volume3/",
+        "exercicios":
+        [
+            {
+                "nome": "Criando e acessando vetores",
+                "coletaResposta": false,
+                "Enunciado":
+                [
+                    {
+                        "path": "Exercicio_1/Enunciado_1.md",
+                        "isCode": false
+                    }
+        
+                ],
+                "Resposta":
+                [
+                    
+                ]
+            },
+            {
+                "nome": "Métodos de um vetor",
+                "coletaResposta": false,
+                "Enunciado":
+                [
+                    {
+                        "path": "Exercicio_2/Enunciado_1.md",
+                        "isCode": false
+                    }
+        
+                ],
+                "Resposta":
+                [
+                    
+                ]
+            }
+        ]
     },
     {
         "nome": "Sobre",
