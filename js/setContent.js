@@ -39,9 +39,15 @@ function loadContent(response, parentDiv){
         let tempCode = document.createElement('code');
         let tempPre = document.createElement('pre');
 
+
+
         
 
         tempPre.className = "language-css";
+        if(parentDiv == divResposta){
+            tempPre.className = "language-css answer"
+            tempPre.style.display= "none"
+        }
         tempPre.appendChild(tempCode);
         tempCode.className = "language-css";
         let tempInnerHTML = Prism.highlight(code, Prism.languages.javascript, 'javascript');
