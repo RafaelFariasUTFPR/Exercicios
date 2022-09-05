@@ -33,7 +33,7 @@ function loadContent(response, parentDiv){
         responseString = responseString.replace(text, "")
         //Removendo o ¹
 
-        code = code.replace(/\¹|-/g, '')
+        code = code.replace(/\¹/g, '')
         
         
         let tempCode = document.createElement('code');
@@ -65,9 +65,6 @@ function loadContent(response, parentDiv){
 
 // Async para usar o "wait" impedindo de renderizar o conteudo na ordem errada
 export async function setContent(volumeN, exercicioN){
-    const markdownContainer = document.getElementById("markdown-container");
-    //markdownContainer.innerHTML = null;
-
     const divEnunciado = document.getElementById("div-enunciado");
     const divResposta = document.getElementById("div-resposta");
     divEnunciado.innerHTML = null;
@@ -85,7 +82,7 @@ export async function setContent(volumeN, exercicioN){
     
 
 
-
+    //Carregando a resposta
     let respostaPath = jsonFile[volumeN].relativePath + jsonFile[volumeN].exercicios[exercicioN].path + "Resposta.md"
     document.getElementById("toggle-answer").style.display = "none";
     if(jsonFile[volumeN].exercicios[exercicioN].resposta){
@@ -101,6 +98,5 @@ export async function setContent(volumeN, exercicioN){
     
 
 
-   
 }
 
