@@ -14,9 +14,10 @@ Exemplo, chamando o método ```length``` do vetor ```meuVetor```.
 
 ```5```
 
+___
+
 Dentro do objeto ```Array``` (vetor) também temos outros **métodos** disponíveis, como por exemplo o ```pop()```, ele **remove o último elemento** da array:
-¹
-let meuVetor = [1, 5, -1, 23, -42];
+¹let meuVetor = [1, 5, -1, 23, -42];
 meuVetor.pop();
 for(let i = 0; i < meuVetor.length; i++){
     console.log(meuVetor[i]);
@@ -32,6 +33,8 @@ for(let i = 0; i < meuVetor.length; i++){
 
 Note que o elemento ```-42``` foi removido.
 
+___
+
 Temos também o método ```push()```, ele **adiciona um elemento ao fim** do vetor. Exemplo:
 ¹let meuVetor = [1, 5];
 meuVetor.push(2);
@@ -45,6 +48,8 @@ for(let i = 0; i < meuVetor.length; i++){
 ```1```
 ```5```
 ```2```
+
+___
 
 Além de outros métodos, podem ser encontrados [aqui](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 

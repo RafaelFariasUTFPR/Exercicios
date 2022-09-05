@@ -7,140 +7,44 @@
             {
                 "nome": "Fluxograma problema dos galões",
                 "coletaResposta": false,
-                "Enunciado":
-                [
-                    {
-                        "path": "Exercicio_3/Enunciado_1.md",
-                        "isCode": false
-                    }
-        
-                ],
-                "Resposta":
-                [
-                    {
-                        "path": "Exercicio_3/Resposta_1.md",
-                        "isCode": false
-                    }
-                ]
+                "path": "Exercicio_3/",
+                "resposta": true
             },
             {
                 "nome": "Radianos para graus",
                 "coletaResposta": false,
-                "Enunciado":
-                [
-                    {
-                        "path": "Exercicio_2/Enunciado_1.md",
-                        "isCode": false
-                    }
-        
-                ],
-                "Resposta":
-                [
-                    {
-                        "path": "Exercicio_2/Resposta_1.md",
-                        "isCode": false
-                    }
-                ]
+                "path": "Exercicio_2/",
+                "resposta": true
             },
             {
                 "nome": "Dias para Anos, Semanas e dias",
                 "coletaResposta": false,
-                "Enunciado":
-                [
-                    {
-                        "path": "Exercicio_4/Enunciado_1.md",
-                        "isCode": false
-                    }
-        
-                ],
-                "Resposta":
-                [
-                    {
-                        "path": "Exercicio_4/Resposta_1.md",
-                        "isCode": false
-                    }
-        
-                ]
+                "path": "Exercicio_4/",
+                "resposta": true
             },
             {
                 "nome": "O número é par ou ímpar?",
                 "coletaResposta": false,
-                "Enunciado":
-                [
-                    {
-                        "path": "Exercicio_1/Enunciado_1.md",
-                        "isCode": false
-                    }
-        
-                ],
-                "Resposta":
-                [
-                    {
-                        "path": "Exercicio_1/Resposta_1.md",
-                        "isCode": false
-                    }
-        
-                ]
+                "path": "Exercicio_1/",
+                "resposta": true
             },
             {
                 "nome": "Checando se o triângulo é válido",
                 "coletaResposta": false,
-                "Enunciado":
-                [
-                    {
-                        "path": "Exercicio_5/Enunciado_1.md",
-                        "isCode": false
-                    }
-        
-                ],
-                "Resposta":
-                [
-                    {
-                        "path": "Exercicio_5/Resposta_1.md",
-                        "isCode": false
-                    }
-        
-                ]
+                "path": "Exercicio_5/",
+                "resposta": true
             },
             {
                 "nome": "Triângulo equilátero, escaleno e isósceles",
                 "coletaResposta": false,
-                "Enunciado":
-                [
-                    {
-                        "path": "Exercicio_6/Enunciado_1.md",
-                        "isCode": false
-                    }
-        
-                ],
-                "Resposta":
-                [
-                    {
-                        "path": "Exercicio_6/Resposta_1.md",
-                        "isCode": false
-                    }
-        
-                ]
+                "path": "Exercicio_6/",
+                "resposta": true
             },
             {
                 "nome": "Calculando a conta de energia",
                 "coletaResposta": false,
-                "Enunciado":
-                [
-                    {
-                        "path": "Exercicio_7/Enunciado_1.md",
-                        "isCode": false
-                    }
-        
-                ],
-                "Resposta":
-                [
-                    {
-                        "path": "Exercicio_7/Resposta_1.md",
-                        "isCode": false
-                    }
-        
-                ]
+                "path": "Exercicio_7/",
+                "resposta": true
             }
         ]
     },
@@ -152,44 +56,16 @@
             {
                 "nome": "Exercício 1",
                 "coletaResposta": false,
-                "Enunciado":
-                [
-                    {
-                        "path": "Exercicio_1/Enunciado_1.md",
-                        "isCode": false
-                    }
-        
-                ],
-                "Resposta":
-                [
-                    {
-                        "path": "Exercicio_1/Resposta_1.md",
-                        "isCode": false
-                    }
-        
-                ]
+                "path": "Exercicio_1/",
+                "resposta": true
             },
             {
                 "nome": "Exercício 2",
                 "coletaResposta": false,
-                "Enunciado":
-                [
-                    {
-                        "path": "Exercicio_2/Enunciado_1.md",
-                        "isCode": false
-                    }
-        
-                ],
-                "Resposta":
-                [
-
-        
-                ]
+                "path": "Exercicio_2/",
+                "resposta": false
             }
-
         ]
-
-
     },
     {
         "nome": "Vetores e matrizes",
@@ -199,34 +75,14 @@
             {
                 "nome": "Criando e acessando vetores",
                 "coletaResposta": false,
-                "Enunciado":
-                [
-                    {
-                        "path": "Exercicio_1/Enunciado_1.md",
-                        "isCode": false
-                    }
-        
-                ],
-                "Resposta":
-                [
-                    
-                ]
+                "path": "Exercicio_1/",
+                "resposta": false
             },
             {
                 "nome": "Métodos de um vetor",
                 "coletaResposta": false,
-                "Enunciado":
-                [
-                    {
-                        "path": "Exercicio_2/Enunciado_1.md",
-                        "isCode": false
-                    }
-        
-                ],
-                "Resposta":
-                [
-                    
-                ]
+                "path": "Exercicio_2/",
+                "resposta": false
             }
         ]
     },
@@ -238,22 +94,9 @@
             {
                 "nome": "Sobre este website",
                 "coletaResposta": false,
-                "Enunciado":
-                [
-                    {
-                        "path": "WebAppInfo/Enunciado_1.md",
-                        "isCode": false
-                    }        
-                ],
-                "Resposta":
-                [
- 
-        
-                ]
+                "path": "WebAppInfo/",
+                "resposta": false
             }
-
         ]
-
-
     }
 ]

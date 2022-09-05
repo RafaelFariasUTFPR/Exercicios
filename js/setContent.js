@@ -72,38 +72,35 @@ export async function setContent(volumeN, exercicioN){
     const divResposta = document.getElementById("div-resposta");
     divEnunciado.innerHTML = null;
     divResposta.innerHTML = null;
+
     // Carregando o enunciado
-    await jsonFile[volumeN].exercicios[exercicioN].Enunciado.forEach(element => {
-        fetch(jsonFile[volumeN].relativePath + element.path)
-            .then(response => response.text())
-            .then((response) => {
-                loadContent(response,divEnunciado)
-                
-            })
-            .catch(err => console.log(err))
+    let enunciadoPath = jsonFile[volumeN].relativePath + jsonFile[volumeN].exercicios[exercicioN].path + "Enunciado.md"
+    fetch(enunciadoPath)
+    .then(response => response.text())
+    .then((response) => {
+        loadContent(response,divEnunciado)
+        
     })
+    .catch(err => console.log(err))
+    
 
-    
-    let numeroDeRespostas = jsonFile[volumeN].exercicios[exercicioN].Resposta.length
-    
+
+
+    let respostaPath = jsonFile[volumeN].relativePath + jsonFile[volumeN].exercicios[exercicioN].path + "Resposta.md"
     document.getElementById("toggle-answer").style.display = "none";
-
-    if(numeroDeRespostas  > 0)
+    if(jsonFile[volumeN].exercicios[exercicioN].resposta){
         document.getElementById("toggle-answer").style.display = "block";
+        // Carregando as Respostas
+        fetch(respostaPath)
+        .then(response => response.text())
+        .then((response) => {
+            loadContent(response, divResposta)
+        })
+        .catch(err => console.log(err))
+    }
     
 
-    // Carregando as Respostas
-    jsonFile[volumeN].exercicios[exercicioN].Resposta.forEach(element => {
-            fetch(jsonFile[volumeN].relativePath + element.path)
-                .then(response => response.text())
-                .then((response) => {
-                    loadContent(response, divResposta)
-                })
-                .catch(err => console.log(err))
-            
 
-
-    });
    
 }
 
