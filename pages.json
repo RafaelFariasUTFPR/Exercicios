@@ -63,7 +63,25 @@
                 "nome": "Exercício 2",
                 "coletaResposta": false,
                 "path": "Exercicio_2/",
-                "resposta": false
+                "resposta": true
+            },
+            {
+                "nome": "Exercício 3",
+                "coletaResposta": false,
+                "path": "Exercicio_3/",
+                "resposta": true
+            },
+            {
+                "nome": "Exercício 4",
+                "coletaResposta": false,
+                "path": "Exercicio_4/",
+                "resposta": true
+            },
+            {
+                "nome": "Exercício 5",
+                "coletaResposta": false,
+                "path": "Exercicio_5/",
+                "resposta": true
             }
         ]
     },
