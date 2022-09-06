@@ -54,6 +54,18 @@
         "exercicios":
         [
             {
+                "nome": "Introdução à seleção condicional em JavaScript",
+                "coletaResposta": false,
+                "path": "Aintro_1/",
+                "resposta": false
+            },
+            {
+                "nome": "Comparadores lógicos",
+                "coletaResposta": false,
+                "path": "Aintro_2/",
+                "resposta": false
+            },
+            {
                 "nome": "Exercício 1",
                 "coletaResposta": false,
                 "path": "Exercicio_1/",
