@@ -66,13 +66,7 @@
                 "resposta": false
             },
             {
-                "nome": "Operadores relacionais",
-                "coletaResposta": false,
-                "path": "Aintro_3/",
-                "resposta": false
-            },
-            {
-                "nome": "Operadores lógicos",
+                "nome": "Operadores relacionais e lógicos",
                 "coletaResposta": false,
                 "path": "Aintro_3/",
                 "resposta": false
