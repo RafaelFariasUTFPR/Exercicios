@@ -1,15 +1,9 @@
-# O número é par ou ímpar?
+# Exercício 2
 
-Crie um programa que verifica se uma variável chamada ```var1``` é **par ou ímpar**.
-> ___
+Crie um programa que calcula o **custo do combustível** gasto em uma viagem.
 
-*Input*
+Este deve receber do usuário a ```distancia```[km], ```consumo```[km/l] e o ```valorDoCombustivel```.
 
-```var1 = 10```
-
-
-*Output*
-
-```10 é par```
+Imprima na tela também a quantidade de combustível gasto em litros.
 
 ___

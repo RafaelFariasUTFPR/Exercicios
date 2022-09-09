@@ -1,27 +1,16 @@
 ## Resposta
 
-Este exercício faz uso de dois comparadores lógicos:
-* O **and** (e) ```&&```, este retorna **verdadeiro** se ambos casos forem```true```;
-* O **or** (ou) ```||```, este retorna **verdadeiro** se qualquer um dos casos forem ```true```.
-
-![Tabela de verdades](./markdown/Volume1/Exercicio_4/table.png)
-
-¹// Declarando o tamanho dos lados
-let lado1 = parseFloat(prompt("Insira um numero para a o lado 1"));
-let lado2 = parseFloat(prompt("Insira um numero para a o lado 2"));
-let lado3 = parseFloat(prompt("Insira um numero para a o lado 3"));
-
+¹let velocidade = Number(prompt("Insira a velocidade do objeto em [kt]"));
+let altitude = Number(prompt("Insira a temperatura do ar em [ft]"));
  
-if(lado1 == lado2 && lado1 == lado3){
-    // Se todos os lados forem iguais
-    console.log("O triangulo é equilatero!");
-}
-else if(lado1 == lado2 || lado1 == lado3 || lado2 == lado3){
-    // Se apenas 2 lados sejam iguais
-    console.log("O triangulo é isósceles!");
-}
-else{
-    // Se nenhum lado for igual
-    console.log("O triangulo é escaleno!");
-}
+// Convertendo de kt para m/s
+let velocidadeSI = velocidade * 0.514444;
+ 
+let temperatura = 15 + (-2 * (altitude / 1000))
+ 
+let velDoSom = 331 + (0.6 * temperatura);
+let mach = velocidadeSI / velDoSom;
+ 
+console.log("Um objeto viajando pelo ar a uma altidude de ", altitude,"ft a ", velocidade,"kt\n");
+console.log("Estará em mach", mach.toFixed(3));
 ¹

@@ -1,27 +1,19 @@
-# Triângulo equilátero, escaleno e isósceles
+# Exercício 4
 
-Crie um programa que avalia 3 valores **lados do triângulo** e define se o triângulo é **equilátero**, **escaleno** ou **isósceles**.
- ___
-**Exemplo**
+Crie um programa que calcula a velocidade em **mach** de uma aeronave a partir da **velocidade** e **altitude**.
 
-*Input*
+Lembre-se que:
+* Mach é uma quantidade que define quão rápido um objeto se move em relação à velocidade do som do meio:
+	* ```mach = (velocidade [m/s] / velocidadeDoSom[m/s])```
+* A **velocidade do som** varia com a **densidade do meio**, assim, para calcular a velocidade de um objeto se movendo no ar pode-se usar:
+	* ```velocidadeDoSom = 331 + (0.6 ∙ temperatura[°c])```
+* A **temperatura do ar** varia com a **altitude** numa taxa de ``` -2 °C ``` para cada ```1000 pés```.
 
-```lado1 = 30```
-```lado2 = 30```
-```lado3 = 30```
+> ___
 
+Receba do usuário valor para a velocidade em **nós [kt]** e altitude em **pés [ft]**.
 
-*Output*
+Considere a atmosfera ISA padrão ```15° C ao nível do mar```.
 
-```O triangulo é equilatero!```
-___
-
-Lembrando que:
-* Sendo ```a```, ```b``` e ```c``` os **lados** de um triângulo.
-
-* Um triângulo é **equilátero** se **todos** os lados forem iguais: ```a = b = c```.
-
-* Um triângulo é **isósceles** se **dois** de seus lados forem iguais: ```a = b``` ou ```a = c``` ou ```b = c```.
-
-* Um triângulo é **escaleno** se **nenhum** de seus lados forem iguais.
+**Atenção com as unidades utilizadas, faça todas as conversões necessárias**
 ___

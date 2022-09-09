@@ -1,19 +1,12 @@
 ## Resposta
 
-¹// Declarando os angulos
-let angulo1 = parseFloat(prompt("Insira um numero para a o angulo 1"));
-let angulo2 = parseFloat(prompt("Insira um numero para a o angulo 2"));
-let angulo3 = parseFloat(prompt("Insira um numero para a o angulo 3"));
+¹let velocidade = Number(prompt("Insira a velocidade do objeto em [m/s]"));
+let temperatura = Number(prompt("Insira a temperatura do ar em [C°]"));
  
-// Declarando a variavel "somaDosAngulos" e setando seu valor como a soma dos angulos
-let somaDosAngulos = angulo1 + angulo2 + angulo3;
+let velDoSom = 331 + (0.6 * temperatura);
+let mach = velocidade / velDoSom;
  
-if(somaDosAngulos == 180){
-    // Se a soma for igual a 180
-    console.log("O triângulo é válido!");
-}
-else{
-    // Se a somar for diferente de 180
-    console.log("O triângulo é inválido!");
-}
+console.log("Um objeto viajando pelo ar a uma temperatura de ", temperatura,"C° a ", velocidade,"m/s\n");
+console.log("Estará em mach", mach.toFixed(1));
 ¹
+

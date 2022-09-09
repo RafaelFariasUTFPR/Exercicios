@@ -1,21 +1,10 @@
-# Checando se o triângulo é válido
+# Exercício 3
 
-Crie uma aplicação que recebe como *input* **três ângulos** internos de um triângulo. Esse programa deve então checar se esses ângulos formam um **triângulo válido**.
- ___
-**Exemplo**
+Crie um programa que calcula a velocidade em **mach** de uma aeronave.
 
-*Input*
-
-```angulo1 = 60```
-```angulo2 = 30```
-```angulo3 = 90```
-
-
-*Output*
-
-```O triângulo é válido!```
-___
-Lembrando que:
-* A **soma** dos **ângulos** de um triângulo deve ser igual a **180°**.
-
+Lembre-se que:
+* Mach é uma quantidade que define quão rápido um objeto se move em relação à velocidade do som do meio:
+	* ```mach = (velocidade [m/s] / velocidadeDoSom [m/s])```
+* A **velocidade do som** varia com a **densidade do meio**, assim, para calcular a velocidade de um objeto se movendo no ar pode-se usar:
+	* ```velocidadeDoSom = 331 + (0.6 ∙ temperatura [°c])```
 ___

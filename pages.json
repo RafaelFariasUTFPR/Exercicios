@@ -49,8 +49,40 @@
         ]
     },
     {
-        "nome": "Seleção Condicional",
+        "nome": "Execução sequencial",
         "relativePath": "./markdown/Volume1/",
+        "exercicios":
+        [
+            {
+                "nome": "Exercício 1",
+                "coletaResposta": false,
+                "path": "Exercicio_1/",
+                "resposta": true
+            },
+            {
+                "nome": "Exercício 2",
+                "coletaResposta": false,
+                "path": "Exercicio_2/",
+                "resposta": true
+            },
+            {
+                "nome": "Exercício 3",
+                "coletaResposta": false,
+                "path": "Exercicio_3/",
+                "resposta": true
+            }
+            ,
+            {
+                "nome": "Exercício 4",
+                "coletaResposta": false,
+                "path": "Exercicio_4/",
+                "resposta": true
+            }
+        ]
+    },
+    {
+        "nome": "Seleção Condicional",
+        "relativePath": "./markdown/Volume2/",
         "exercicios":
         [
             {

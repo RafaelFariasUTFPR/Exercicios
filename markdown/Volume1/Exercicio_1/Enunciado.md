@@ -1,9 +1,20 @@
-# Exercicio 1
-Escreva um programa que trabalha com duas variáveis numéricas ```a``` e ```b```, este deve imprimir:
+# Exercício 1
 
-* O **quociente** de ```a``` por ```b```, caso ```a``` seja **maior que** ```b``` e o divisor seja **diferente de 0**;
+Crie um programa que calcula a **posição de um automóvel** se movendo em linha reta, este deve receber do usuário todas as variáveis necessárias e imprimir na tela o resultado da computação.
 
-* Do contrário se ```a``` for **menor ou igual** a ```b``` imprima o **produto** desses dois números; 
+Lembrando que a posição em função do tempo pode ser calculada através de:
+* s = s0 + v0∙t + (a∙t^2)/2
 
-* Sendo **ambos casos** falsos imprima a **diferença** entre ```b``` e ```a```.
+onde,
+
+s = Posição final;
+
+s0 = Posição inicial;
+
+v0 = Velocidade inicial;
+
+t = tempo;
+
+a = Aceleração.
+
 ___

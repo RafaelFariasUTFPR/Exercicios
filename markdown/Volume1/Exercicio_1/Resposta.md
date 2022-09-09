@@ -1,15 +1,11 @@
 ## Resposta
-Este exercício faz uso da seleção condicional, usando o ```if``` e ```else```, assim como os operadores lógicos ```>```, ```<``` e ```!=```. 
 
-Uma das possiveis respostas pode ser vista a seguir:
-
-¹let a = 10;
-let b = 0;
+¹let s0 = Number(prompt("Posição inicial em [m]"));
+let v0 = Number(prompt("Velocidade inicial em [m/s]"));
+let t = Number(prompt("Tempo em [s]"));
+let a = Number(prompt("Aceleração em [m/s^2]"));
  
-if(a > b && b != 0)
-    console.log(a / b); // Quociente de a por b
-else if(a <= b)
-    console.log(a * b); // Produto de a por b
-else
-    console.log(b - a); // Diferença entre b e a
+let s = s0 + (v0 * t) + ((a * Math.pow(t,2))/2);
+ 
+console.log(`O automóvel estará na posição ${s}m`);
 ¹

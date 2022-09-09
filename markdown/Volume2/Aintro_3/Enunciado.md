@@ -27,7 +27,7 @@ Os operadores são:
 * “E” lógico ```&&```:
 	Compara dois valores e retorna ```true``` se **ambos** forem ```true```.
 
-	![Tabela verdade and](./markdown/Volume1/Aintro_3/and.png)
+	![Tabela verdade and](./markdown/Volume2/Aintro_3/and.png)
 
     Exemplo:
 ¹// Exemplo de como ler:
@@ -47,7 +47,7 @@ ___
 * “Ou” lógico ```||```:
 	Compara dois valores e retorna ```true``` se **um ou mais** forem ```true```.
 
-	![Tabela verdade or](./markdown/Volume1/Aintro_3/or.png)
+	![Tabela verdade or](./markdown/Volume2/Aintro_3/or.png)
 
 	Exemplo:
 ¹// Exemplo de como ler:
@@ -70,7 +70,7 @@ ___
 * Negação Lógica ```!```:
 	Retorna a **negação** ou seja, o **inverso** de um valor booleano:
 
-    ![Tabela verdade not](./markdown/Volume1/Aintro_3/not.png)
+    ![Tabela verdade not](./markdown/Volume2/Aintro_3/not.png)
 
 	
 Exemplo:
