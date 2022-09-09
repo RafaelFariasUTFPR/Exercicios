@@ -54,6 +54,12 @@
         "exercicios":
         [
             {
+                "nome": "Introdução ao JavaScript",
+                "coletaResposta": false,
+                "path": "Aintro_1/",
+                "resposta": false
+            },
+            {
                 "nome": "Exercício 1",
                 "coletaResposta": false,
                 "path": "Exercicio_1/",

@@ -4,8 +4,8 @@ import jsonFile from '../pages.json' assert {type: 'json'};
 function loadContent(response, parentDiv){
     const divResposta = document.getElementById("div-resposta");
     
-    // setando a string que sera manipulada + adicionando o ² ao final para mostrar onde a página termina
-    let responseString = response + '²';
+    // setando a string que sera manipulada + adicionando o §end§ ao final para mostrar onde a página termina
+    let responseString = response + '§end§'; // §end§ determina o fim
     while(true){
         //Pegando o código entre ¹ e ¹
         let code = responseString.match(/ *\¹[^]*?\¹ */g)
@@ -14,10 +14,10 @@ function loadContent(response, parentDiv){
             code = code[0]
         }
         
-        responseString = responseString.replace(/ *\¹[^]*?\¹ */, "²")
+        responseString = responseString.replace(/ *\¹[^]*?\¹ */, "§end§")
 
-        let text = responseString.substring(0, responseString.indexOf('²'));
-        responseString = responseString.replace("²", "")
+        let text = responseString.substring(0, responseString.indexOf('§end§'));
+        responseString = responseString.replace("§end§", "")
 
         let tempTextElement= document.createElement('div');
         tempTextElement.className = "markdown-text"
