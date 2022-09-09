@@ -3,7 +3,7 @@
 Este exercício faz uso do operador **módulo** ```%```, este operador retorna o **resto** da divisão de 2 números, dessa forma podemos utilizá-lo para definir se um número é par ou ímpar.
 
 ¹// Declarando a var1
-let var1 = prompt("Insira um numero para a var1");
+let var1 = parseFloat(prompt("Insira um numero para a var1"));
  
  
 // Modulo da "var1", operador "%"
@@ -19,7 +19,7 @@ else{
 
 Note que o número 1 também equivale a resposta booleana ```true``` dessa forma o seguinte código também é válido
 ¹// Declarando a var1
-let var1 = prompt("Insira um numero para a var1");
+let var1 = parseFloat(prompt("Insira um numero para a var1"));
  
  
 // Modulo da "var1", operador "%"
