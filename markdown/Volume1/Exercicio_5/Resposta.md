@@ -3,7 +3,7 @@
 ¹// Declarando as variaveis
  
 // Valor em kWh consumido
-let energia = 300;
+let energia = prompt("Insira o consumo");
  
 // Duplicando a variavel para poder apresentar ao final
 let consumo = energia;

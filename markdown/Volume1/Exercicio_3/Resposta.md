@@ -1,9 +1,9 @@
 ## Resposta
 
 ¹// Declarando os angulos
-let angulo1 = 60;
-let angulo2 = 30;
-let angulo3 = 90;
+let angulo1 = prompt("Insira um numero para a o angulo 1");
+let angulo2 = prompt("Insira um numero para a o angulo 2");
+let angulo3 = prompt("Insira um numero para a o angulo 3");
  
 // Declarando a variavel "somaDosAngulos" e setando seu valor como a soma dos angulos
 let somaDosAngulos = angulo1 + angulo2 + angulo3;

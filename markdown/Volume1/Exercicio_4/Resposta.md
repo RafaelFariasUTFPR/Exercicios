@@ -7,7 +7,9 @@ Este exercício faz uso de dois comparadores lógicos:
 ![Tabela de verdades](./markdown/Volume1/Exercicio_4/table.png)
 
 ¹// Declarando o tamanho dos lados
-let lado1 = 30, lado2 = 30, lado3 = 30;
+let lado1 = prompt("Insira um numero para a o lado 1");
+let lado2 = prompt("Insira um numero para a o lado 2");
+let lado3 = prompt("Insira um numero para a o lado 3");
  
 if(lado1 == lado2 && lado1 == lado3){
     // Se todos os lados forem iguais
