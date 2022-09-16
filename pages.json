@@ -163,6 +163,12 @@
                 "coletaResposta": false,
                 "path": "Exercicio_3/",
                 "resposta": true
+            },
+            {
+                "nome": "Aprovação no ENEM",
+                "coletaResposta": false,
+                "path": "Exercicio_4/",
+                "resposta": true
             }
             
         ]
