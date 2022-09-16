@@ -142,8 +142,74 @@
         ]
     },
     {
-        "nome": "Vetores e matrizes",
+        "nome": "Seleção Condicional Switch",
         "relativePath": "./markdown/Volume3/",
+        "exercicios":
+        [
+            {
+                "nome": "Números de dias em um mês",
+                "coletaResposta": false,
+                "path": "Exercicio_1/",
+                "resposta": true
+            },
+            {
+                "nome": "Positivo ou negativo com o switch",
+                "coletaResposta": false,
+                "path": "Exercicio_2/",
+                "resposta": true
+            },
+            {
+                "nome": "Criando uma calculadora",
+                "coletaResposta": false,
+                "path": "Exercicio_3/",
+                "resposta": true
+            }
+            
+        ]
+    },
+    {
+        "nome": "Estruturas de repetição",
+        "relativePath": "./markdown/Volume4/",
+        "exercicios":
+        [
+            {
+                "nome": "Em breve",
+                "coletaResposta": false,
+                "path": "Exercicio_1/",
+                "resposta": false
+            },
+            {
+                "nome": "Em breve",
+                "coletaResposta": false,
+                "path": "Exercicio_2/",
+                "resposta": false
+            }
+            
+        ]
+    },
+    {
+        "nome": "Funções",
+        "relativePath": "./markdown/Volume5/",
+        "exercicios":
+        [
+            {
+                "nome": "Em breve",
+                "coletaResposta": false,
+                "path": "Exercicio_1/",
+                "resposta": false
+            },
+            {
+                "nome": "Em breve",
+                "coletaResposta": false,
+                "path": "Exercicio_2/",
+                "resposta": false
+            }
+            
+        ]
+    },
+    {
+        "nome": "Vetores",
+        "relativePath": "./markdown/Volume6/",
         "exercicios":
         [
             {
@@ -166,6 +232,27 @@
             }
         ]
     },
+    {
+        "nome": "Strings",
+        "relativePath": "./markdown/Volume7/",
+        "exercicios":
+        [
+            {
+                "nome": "Em breve",
+                "coletaResposta": false,
+                "path": "Exercicio_1/",
+                "resposta": false
+            },
+            {
+                "nome": "Em breve",
+                "coletaResposta": false,
+                "path": "Exercicio_2/",
+                "resposta": false
+            }
+            
+        ]
+    },
+    
     {
         "nome": "Sobre",
         "relativePath": "./markdown/VolumeZ/",
