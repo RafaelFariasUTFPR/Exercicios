@@ -169,6 +169,12 @@
                 "coletaResposta": false,
                 "path": "Exercicio_4/",
                 "resposta": true
+            },
+            {
+                "nome": "Console geral",
+                "coletaResposta": false,
+                "path": "Exercicio_5/",
+                "resposta": true
             }
             
         ]

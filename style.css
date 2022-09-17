@@ -115,6 +115,32 @@ body{
 .question-group{
   flex-wrap: wrap;
 }
+/*
+div.button-group .question-selector-button{
+  visibility: hidden;
+  opacity: 0;
+  transition: 800ms;
+}
+
+.button-group{
+  display: none;
+}
+
+.options-list:hover .question-selector-button{
+  display: block;
+  visibility: visible;
+  opacity: 1;
+
+
+}
+.options-list:hover .button-group{
+  display: block;
+
+}
+.options-list:hover{
+  background-color: #303030;
+}
+*/
 .group-name{
   font-weight: 500;
   margin-left: 25px;

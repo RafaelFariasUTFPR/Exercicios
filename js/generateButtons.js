@@ -31,6 +31,10 @@ export class exercicioButton{
             tempGroupNameElement.innerHTML = (i+1) + ". " +jsonFile[i].nome;
             
             tempQuestionGroupElement.appendChild(tempGroupNameElement);
+
+            let tempButtonsDiv = document.createElement('div');
+            tempButtonsDiv.className = "button-group";
+
     
             for(let j = 0; j < jsonFile[i].exercicios.length; j++)
             {
@@ -38,7 +42,7 @@ export class exercicioButton{
                 tempButtonElement.className = "question-selector-button";
                 tempButtonElement.id = volumeId + "exercicio" + (j + 1);
                 tempButtonElement.innerHTML = "• " + jsonFile[i].exercicios[j].nome;
-                tempQuestionGroupElement.appendChild(tempButtonElement);
+                tempButtonsDiv.appendChild(tempButtonElement);
                 let buttonObj = {
                     htmlButton: tempButtonElement,
                     volume: i,
@@ -47,8 +51,8 @@ export class exercicioButton{
 
                 this.buttonArr.push(buttonObj);
             }
-    
             
+            tempListElement.appendChild(tempButtonsDiv);
             projectName.appendChild(tempListElement);
         }
     }

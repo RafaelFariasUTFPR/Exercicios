@@ -8,11 +8,11 @@ Tendo como base os seguintes cursos:
 
 * **Curso 1** Eng. Eletrônica - nota de corte **690**
 	* Pesos:
-		* Redação: ```1```
+		* Redação: ```2```
 		* Ciências da Natureza e suas Tecnologias: ```2```
 		* Ciências Humanas e suas Tecnologias: ```1```
 		* Linguagens, Códigos e suas Tecnologias: ```1```
-		* Matemática e suas Tecnologias: ```3```
+		* Matemática e suas Tecnologias: ```4```
 > ___
 * **Curso 2** Medicina - nota de corte **875**
 	* Pesos:
