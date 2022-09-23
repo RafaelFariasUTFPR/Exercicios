@@ -185,16 +185,22 @@
         "exercicios":
         [
             {
-                "nome": "Em breve",
+                "nome": "Imprimindo números com o while",
                 "coletaResposta": false,
                 "path": "Exercicio_1/",
-                "resposta": false
+                "resposta": true
             },
             {
-                "nome": "Em breve",
+                "nome": "Recebendo palavras",
                 "coletaResposta": false,
                 "path": "Exercicio_2/",
-                "resposta": false
+                "resposta": true
+            },
+            {
+                "nome": "Somando números primos",
+                "coletaResposta": false,
+                "path": "Exercicio_3/",
+                "resposta": true
             }
             
         ]
