@@ -185,27 +185,39 @@
         "exercicios":
         [
             {
-                "nome": "Imprimindo números com o while",
+                "nome": "[while] - Imprimindo números",
                 "coletaResposta": false,
                 "path": "Exercicio_1/",
                 "resposta": true
             },
             {
-                "nome": "Recebendo palavras",
+                "nome": "[while] - Recebendo palavras",
                 "coletaResposta": false,
                 "path": "Exercicio_2/",
                 "resposta": true
             },
             {
-                "nome": "Somando números primos",
+                "nome": "[while] - Somando números primos",
                 "coletaResposta": false,
                 "path": "Exercicio_3/",
                 "resposta": true
             },
             {
-                "nome": "Calculando o fatorial com while",
+                "nome": "[while] - Calculando o fatorial",
                 "coletaResposta": false,
                 "path": "Exercicio_4/",
+                "resposta": true
+            },
+            {
+                "nome": "[for] - Imprimindo números",
+                "coletaResposta": false,
+                "path": "Exercicio_5/",
+                "resposta": true
+            },
+            {
+                "nome": "[for] - Calculando o fatorial",
+                "coletaResposta": false,
+                "path": "Exercicio_6/",
                 "resposta": true
             }
             
