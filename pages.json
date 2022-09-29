@@ -201,7 +201,14 @@
                 "coletaResposta": false,
                 "path": "Exercicio_3/",
                 "resposta": true
+            },
+            {
+                "nome": "Calculando o fatorial com while",
+                "coletaResposta": false,
+                "path": "Exercicio_4/",
+                "resposta": true
             }
+            
             
         ]
     },
