@@ -54,7 +54,7 @@ Para acessar um elemento de um vetor utilizasse o ***index*** (índice) do eleme
 
 Importante lembrar que índices iniciam no valor 0
 
-![Diagrama de fluxo](./markdown/Volume3/Exercicio_1/imgIndex.png)
+![Diagrama de fluxo](./markdown/Volume6/Exercicio_1/imgIndex.png)
 ___
 Acessando elementos de um vetor exemplo:
 
