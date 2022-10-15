@@ -29,7 +29,7 @@ Temos várias formas de criar um vetor, como por exemplo:
 > ___
 
 Podemos também criar um vetor e **posteriormente** definir qual o valor de seu elemento:
-¹const marca= [];
+¹let marca= [];
 marca[0]= "Saab";
 marca[1]= "Volvo";
 marca[2]= "BMW";
