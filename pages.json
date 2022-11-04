@@ -230,16 +230,28 @@
         "exercicios":
         [
             {
-                "nome": "Em breve",
+                "nome": "Calculando o cubo de um número",
                 "coletaResposta": false,
                 "path": "Exercicio_1/",
-                "resposta": false
+                "resposta": true
             },
             {
-                "nome": "Em breve",
+                "nome": "Quantidade de dígitos de um número",
                 "coletaResposta": false,
                 "path": "Exercicio_2/",
-                "resposta": false
+                "resposta": true
+            },
+            {
+                "nome": "Potência de um número",
+                "coletaResposta": false,
+                "path": "Exercicio_3/",
+                "resposta": true
+            },
+            {
+                "nome": "Checando se é um número Armstrong",
+                "coletaResposta": false,
+                "path": "Exercicio_4/",
+                "resposta": true
             }
             
         ]
